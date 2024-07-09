@@ -1,0 +1,132 @@
+body {
+    font-family:'poppins' , sans-serif ;
+    background-color: #d9e2e8; /* Grey background for the webpage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 70px 200px;
+}
+.Card1 , .Card2 , .Card3{
+    flex:1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 140px;
+    text-align: left;
+}
+.Card1 h1{
+    color: #E04553;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+
+}
+.Card2 h1{
+    color: #114BA3;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+
+}
+.Card3 h1{
+    color: #512b22;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+
+}
+.Card1 p{
+    font-size: large;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+}
+.Card2 p{
+    font-size: large;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+}
+.Card3 p{
+    font-size: large;
+    padding-left: 0px;
+    padding-right: 200px;
+    margin-left: -130px;
+}
+.Card1 button{
+    padding: 20px 50px;
+    margin-left: -130px;
+    background-color: #E04553;
+    border: none;
+    color: white;
+    text-align: left; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; 
+}
+.Card2 button{
+    padding: 20px 50px;
+    margin-left: -130px;
+    background-color: #114BA3;
+    border: none;
+    color: white;
+    text-align: left; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; 
+
+}
+.Card3 button{
+    padding: 20px 50px;
+    margin-left: -130px;
+    background-color: #512B22;
+    border: none;
+    color: white;
+    text-align: left; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; 
+
+}
+.Card1 img{
+    width: 150px; 
+    margin-left: 300px; 
+    margin-bottom: -130px; 
+
+}
+.Card2 img{
+    width: 150px; 
+    margin-left: 300px; 
+    margin-bottom: -130px; 
+
+}
+.Card3 img{
+    width: 150px; 
+    margin-left: 300px; 
+    margin-bottom: -130px;
+
+}
+.Card1 button:hover{
+    background-color:#997570;
+}
+.Card1 button:hover, .Card2 button:hover, .Card3 button:hover {
+    background-color:#6e7f80;
+}
+.Card1 button:hover, .Card2 button:hover, .Card3 button:hover {
+    background-color:#d5d0c8;
+}
+
+
+
